@@ -49,7 +49,7 @@ score = 0
 high_score = 0
 game_over = False
 last_score = 0  # This stores the score when the game is over after the user enters a wrong answer
-try_again_button = Button("Try Again", WIDTH // 2 - 110, 250, 100, 50)  # This creates the Try Again button
+try_again_button = Button("Try Again", WIDTH // 2 - 100, 250, 100, 50)  # This creates the Try Again button
 exit_button = Button("Quit", WIDTH // 2 + 10, 250, 100, 50)  # This creates the Quit button after the wrong answer.
 
 # This defines a function 'new_question' to ask the arithmetic question
